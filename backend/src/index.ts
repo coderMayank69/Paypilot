@@ -4,7 +4,7 @@ import { connectDatabase } from './config/database';
 import config from './config/index';
 import { errorHandler, validationErrorHandler } from './middleware/index';
 import { authRoutes, clientRoutes, invoiceRoutes, dashboardRoutes } from './routes/index';
-import { API_BASE_PATH } from '../shared/constants/index';
+import { API_BASE_PATH } from '../../shared/constants';
 
 const app: Express = express();
 

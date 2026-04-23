@@ -1,7 +1,7 @@
 import { Response } from 'express';
 import { AuthRequest } from '../middleware/index';
 import { ClientService } from '../services/index';
-import { HTTP_STATUS, SUCCESS_MESSAGES, ERROR_MESSAGES } from '../../shared/constants/index';
+import { HTTP_STATUS, SUCCESS_MESSAGES, ERROR_MESSAGES } from '../../shared/constants';
 
 export class ClientController {
   async createClient(req: AuthRequest, res: Response) {

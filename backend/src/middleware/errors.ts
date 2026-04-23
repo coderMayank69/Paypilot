@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import { validationResult } from 'express-validator';
-import { HTTP_STATUS } from '../../shared/constants/index';
+import { HTTP_STATUS } from '../../shared/constants';
 
 export const errorHandler = (
   err: any,

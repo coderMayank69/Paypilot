@@ -2,7 +2,7 @@ import { User } from '../models/index';
 import { IUser, UserRole } from '../../shared/types/index';
 import { hashPassword, comparePassword } from '../utils/auth';
 import { isValidEmail } from '../../shared/utils/index';
-import { ERROR_MESSAGES } from '../../shared/constants/index';
+import { ERROR_MESSAGES } from 'shared/constants';
 
 export class AuthService {
   async signup(email: string, firstName: string, lastName: string, password: string, company?: string): Promise<IUser> {

@@ -1,7 +1,7 @@
 import { Response } from 'express';
 import { AuthRequest } from '../middleware/index';
 import { DashboardService } from '../services/index';
-import { HTTP_STATUS, ERROR_MESSAGES } from '../../shared/constants/index';
+import { HTTP_STATUS, ERROR_MESSAGES } from '../../shared/constants';
 
 export class DashboardController {
   async getMetrics(req: AuthRequest, res: Response) {
