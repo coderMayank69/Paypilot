@@ -1,0 +1,16 @@
+{
+  "name": "paypilot-shared",
+  "version": "0.1.0",
+  "description": "PayPilot Shared Types and Utilities",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": ["types", "utilities"],
+  "author": "PayPilot Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "typescript": "^4.9.4"
+  }
+}
